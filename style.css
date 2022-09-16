@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.bk {
+   background: url("https://springboard-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225-xl.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 693px;
+	width:100%;
+	padding-bottom: 0px;
+	position: relative;
+    font-family: sans-serif;
+    
+}
+.bk::before {
+    content: '';
+	background-image: url("https://springboard-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225-xl.jpg");
+    	background-size: cover;
+    	position: absolute;
+    	top: 0px;
+    	right: 0px;
+    	bottom: 0px;
+    	left: 0px;
+    	background-blend-mode: darken;
+    	background-color: rgba(0,0,0,0.7);
+}
+.container1 {
+    height: 13cm;
+    width: 11cm;
+    align-content: center;
+    position: relative;
+    top: 10px;
+    right: 0%;
+    bottom:30px;
+    left:33%;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.7);
+}
+.logo{
+    margin-top: 0px;
+    height: 2cm;
+    padding-top: 15px;
+    padding-left: 20px;
+    opacity: 0.95;
+    
+}
+.form {
+    padding-top: 23px;
+    padding-left: 61px;
+    margin-bottom: 30px;
+}
+.input{
+    background-color: #404040;
+    height: 50px;    
+    margin-bottom: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+.checkbox{
+    background-color: grey;
+}
+.footer{
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0cm;
+    height: 8.3cm;
+    position: relative;
+    
+    background-size: cover;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.9);
+}
+@media (min-width:0px) and (max-width:540px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .bk{
+        background: black;
+    }
+    .bk::before{
+        background: black;
+    }
+    .logo{
+        padding-top: 1cm;
+        padding-left: 1cm;
+        height: 2cm;
+    }
+    .container1{
+        padding-left: 0px;
+        margin-left: 0px;
+        height: 13cm;
+    width: 10cm;
+    
+    position: relative;
+    top: 10px;
+    right: 10px;
+    bottom:0px;
+    left:0px;
+    margin-top: 20px;
+    }
+    .heading{
+        font-family:sans-serif;
+            color:white;
+            padding-top:0px;
+            padding-left: 0px;
+            font-size:500px;
+    }
+}
+@media (min-width:541px) and (max-width:767px){
+    body{
+        background: black;
+    }
+    .logo{
+        padding-top: 15px;
+        padding-left: 15px;
+        background: black;
+    }
+    .container1{
+        height: 13cm;
+    width: 11cm;
+    align-content: center;
+    background: black;
+    top: 10px;
+    right: 0%;
+    bottom:0px;
+    left:0%;
+    margin-left: 22%;
+    margin-right: 0%;
+
+    }
+    .bk{
+        height: 693px;
+        background-size: cover;
+        background: black;
+    }
+    .bk::before{
+        height: 693px;
+        background-color: black;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .bk{
+        background: url("https://springboard-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225-xl.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 693px;
+	width:100%;
+	padding-bottom: 0px;
+	position: relative;
+    font-family: sans-serif;
+    }
+    .bk::before{
+        content: '';
+	background-image: url("https://springboard-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225-xl.jpg");
+    	background-size: cover;
+    	position: absolute;
+    	top: 0px;
+        height: 40cm;
+        width: 100%;
+    	right: 0px;
+    	bottom: 0px;
+    	left: 0px;
+    	background-blend-mode: darken;
+    	background-color: rgba(0,0,0,0.7);
+    }
+    .logo{
+        margin-top: 0px;
+        height: 4cm;
+        padding-top: 50px;
+        padding-left: 20px;
+        opacity: 0.95;
+        
+    }
+    .container1 {
+        height: 13cm;
+        width: 11cm;
+        align-content: center;
+        position: relative;
+        top: 200px;
+        right: 0%;
+        bottom:30px;
+        left:28%;
+        background-blend-mode: darken;
+        background-color: rgba(0,0,0,0.7);
+    }
+    .footer{
+        padding-bottom: 0px;
+        margin-top: 0px;
+        padding-top: 0cm;
+        height: auto;
+        position: relative;
+        
+        background-size: cover;
+        width: 100%;
+        top: 590px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        background-blend-mode: darken;
+        background-color: rgba(0,0,0,0.9);
+    }
+}
